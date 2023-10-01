@@ -22,6 +22,9 @@ const IndexPage = () => {
             honing my amateur cooking skills
           </li>
         </div>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Me</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </>
   );
