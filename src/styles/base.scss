@@ -1,0 +1,65 @@
+@import "./colors.scss";
+
+* {
+  background-color: $base-background-color;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins";
+  color: $base-font-color;
+}
+
+html,
+body {
+  font-family: "Poppins";
+  color: $base-font-color;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+p,
+li,
+a,
+Link {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: $base-font-color;
+  border-top: 1px solid $base-background-color;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .image {
+    &_profile {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
