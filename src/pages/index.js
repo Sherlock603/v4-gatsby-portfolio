@@ -5,13 +5,13 @@ var greeting = () => {
   let hoursNow = today.getHours();
 
   if (hoursNow >= 18 && hoursNow < 21) {
-    return "GOOD EVENING";
+    return "good evening";
   } else if (hoursNow >= 12 && hoursNow < 18) {
-    return "GOOD AFTERNOON";
+    return "good afternoon";
   } else if (hoursNow >= 6 && hoursNow < 12) {
-    return "GOOD MORNING";
+    return "good morning";
   } else {
-    return "GOOD NIGHT";
+    return "good night";
   }
 };
 
