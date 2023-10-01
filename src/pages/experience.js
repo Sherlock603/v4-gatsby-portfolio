@@ -6,17 +6,17 @@ var greeting = () => {
   let hoursNow = today.getHours();
 
   if (hoursNow >= 18 && hoursNow < 21) {
-    return "good evening";
+    return "Good evening";
   } else if (hoursNow >= 12 && hoursNow < 18) {
-    return "good afternoon";
+    return "Good afternoon";
   } else if (hoursNow >= 6 && hoursNow < 12) {
-    return "good morning";
+    return "Good morning";
   } else {
-    return "good night";
+    return "Thanks for visiting my portfolio";
   }
 };
 
-const AboutPage = () => {
+const ExperiencePage = () => {
   return (
     <>
       <div id="SEO" />
@@ -24,10 +24,8 @@ const AboutPage = () => {
         <div id="container_about-page">
           <h1>About me</h1>
           <p>
-            {greeting()} IT professional with 5+ years of experience in SaaS
-            Quality Assurance and Sales. Agile/Scrum devotee. Craft beer
-            aficionado working towards earning First-Level Cicerone
-            Certification.
+            {greeting()}, friend! I'm an IT professional with 5+ years of experience in SaaS
+            Quality Assurance and Sales. Currently, I work as
           </p>
         </div>
         <Link to="/">Home</Link>
@@ -38,6 +36,6 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default ExperiencePage;
 
 export const Head = () => <title>About Page</title>;
