@@ -8,11 +8,14 @@ const IndexPage = () => {
       <div id="layout_landing-page">
         <div id="container_landing-page">
           <h1>Hank Holmes</h1>
+          <h2>QA Analyst</h2>
+          <p>5+ years of Quality Assurance and Sales experience</p>
+          <p>Traveler, history buff, amateur cook, craft beer aficionado</p>
         </div>
         <p>
           IT professional with 5+ years of Quality Assurance and Sales
-          experience. Agile and Scrum devotee. Avid traveler, amateur
-          history buff, and craft beer aficionado.
+          experience. Agile and Scrum devotee. Avid traveler, amateur history
+          buff, and craft beer aficionado.
         </p>
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
